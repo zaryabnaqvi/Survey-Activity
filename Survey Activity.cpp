@@ -95,13 +95,13 @@ int main()
 	
 	ofstream fout("Records.txt",ios::app);
 	fout<<"\n\n\n\n";
-	fout<<"-----------------------------------------------------------------------------------------------";
-	fout<<"-----------------------------------------RECORD------------------------------------------------";
-	fout<<"Name: "<<name<<endl;
-	fout<<"Roll no:"<<roll_no<<endl;
-	fout<<"auditory :"<<a_total*10<<"%\n";
-	fout<<"visual: "<<b_total*10<<"%\n";
-	fout<<"tactile: "<<c_total*10<<"%\n";
+	fout<<"-----------------------------------------------------------------------------------------------"<<endl;
+	fout<<"-----------------------------------------RECORD------------------------------------------------"<<endl;
+	fout<<"Name     :   "<<name<<endl;
+	fout<<"Roll no  :   "<<roll_no<<endl;
+	fout<<"auditory :   "<<a_total*10<<"%\n";
+	fout<<"visual   :   "<<b_total*10<<"%\n";
+	fout<<"tactile  :   "<<c_total*10<<"%\n";
 	fout.close();
 	return 0;
 	
